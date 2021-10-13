@@ -1,0 +1,29 @@
+body{
+    background-color: #222222;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+#question{
+    font-size: 24px;
+    border-radius: 15px;
+}
+
+#submit{
+    font-size: 24px;
+    border-radius: 15px;
+}
+
+#submit:hover{
+    background-color: rgb(0, 130, 216);
+    border-color: rgb(0, 130, 216);
+}
+
+/* #result{
+    color: green;
+} */
