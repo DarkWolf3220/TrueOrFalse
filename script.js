@@ -7,10 +7,10 @@ function check(){
 
     if(check > 50){
         document.getElementById("result").style.color = "green";
-        document.getElementById("result").innerHTML = "PRAWDA!";
+        document.getElementById("result").innerHTML = "TAK!";
     }else{
         document.getElementById("result").style.color = "red";
-        document.getElementById("result").innerHTML = "FAŁSZ!";
+        document.getElementById("result").innerHTML = "NIE!";
         
     }
 }
