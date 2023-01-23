@@ -10,16 +10,24 @@
 </head>
 <body>
     <div class="container">
-        Zadaj pytanie i poznaj odpowiedź
+        <fieldset>
+            Zadaj pytanie i poznaj odpowiedź
         <div class="row">
-            <br />
-            <input type="text" id="question" placeholder="Wpisz tutaj zapytanie...">
-            <br />
-            <br />
-            <input type="submit" id="submit" value="Sprawdź" onclick="check()">
-            <br />
-            <br />
+                <br />
+                <input type="text" id="question" placeholder="Wpisz tutaj zapytanie...">
+                <br />
+                <br />
+                <input type="submit" id="submit" value="Sprawdź" onclick="check()">
+                <br />
+        </fieldset> 
+        <br />
+        <fieldset>
             Wynik:<div id="result"></div>
+        </fieldset>
+        <br />
+        <fieldset>
+            Poprzednie pytania: <div id="questions"></div>
+        </fieldset>
         </div>
     </div>
     
